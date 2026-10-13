@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big Dipper: Dip or Falling Knife?</title>
+  <meta name="description" content="Big Dipper scans the S&P 500 for stocks that are down, scores business quality and price setup, and explains whether each dip looks like a bargain or a trap.">
+  <meta name="theme-color" content="#070a1f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='25' font-size='26' text-anchor='middle' fill='%23ffd166' font-family='Georgia,serif' font-weight='bold'%3E$%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <header class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">S&amp;P 500 dip screener</p>
+      <h1>Big Dipper</h1>
+      <p class="tagline">Is this dip a <strong>bargain</strong>, or a <strong>falling knife</strong>?<br>
+        Every stock that's down, scored on business quality and price setup, with the reasoning shown.</p>
+      <p class="asof" id="asof" aria-live="polite">Loading the night sky…</p>
+    </div>
+    <svg class="dipper" id="dipper" viewBox="0 0 330 200" role="img" aria-label="The Big Dipper constellation drawn with seven gold dollar signs"></svg>
+  </header>
+
+  <main>
+    <section class="summary" id="summary" aria-label="Summary of verdicts"></section>
+
+    <section class="controls" aria-label="Filters">
+      <div class="control">
+        <span class="label" id="profile-label">Investor risk profile</span>
+        <div class="seg" role="radiogroup" aria-labelledby="profile-label" id="profile-seg"></div>
+      </div>
+      <div class="control">
+        <span class="label" id="verdict-label">Verdict</span>
+        <div class="chips" role="group" aria-labelledby="verdict-label" id="verdict-chips"></div>
+      </div>
+      <div class="control grow">
+        <label class="label" for="search">Search</label>
+        <input id="search" type="search" placeholder="Ticker or company" autocomplete="off">
+      </div>
+      <div class="control">
+        <label class="label" for="sector">Sector</label>
+        <select id="sector"></select>
+      </div>
+      <div class="control">
+        <label class="label" for="sort">Sort by</label>
+        <select id="sort">
+          <option value="drawdown">Biggest drop from high</option>
+          <option value="day_change">Today's move</option>
+          <option value="composite">Combined score</option>
+          <option value="fund_score">Business score</option>
+          <option value="tech_score">Price setup score</option>
+          <option value="ticker">Ticker A to Z</option>
+        </select>
+      </div>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="list-head" aria-hidden="true">
+      <span>Stock</span><span>From high</span><span>Today</span><span>Business</span><span>Setup</span><span>Last 6 months</span><span>Verdict</span>
+    </div>
+    <ul class="list" id="list"></ul>
+    <p class="empty" id="empty" hidden>No stocks match those filters.</p>
+
+    <section class="how" aria-labelledby="how-h">
+      <h2 id="how-h">How Big Dipper decides</h2>
+      <div class="how-grid">
+        <article>
+          <h3><span class="num">1</span> Business quality</h3>
+          <p>8 fundamentals, 0 to 100: valuation (P/E, PEG), profitability (ROE, margin), growth (revenue, earnings) and financial health (debt, free cash flow). Is the company behind the drop still sound?</p>
+        </article>
+        <article>
+          <h3><span class="num">2</span> Price setup</h3>
+          <p>4 signals, 0 to 100: RSI, Bollinger Bands, the 200-day trend and volume. Is the selling stretched and exhausted, with the long-term trend still intact?</p>
+        </article>
+        <article>
+          <h3><span class="num">3</span> The gate</h3>
+          <p>A weak business can never be a Buy, however oversold the chart looks. A buy needs a combined score of 60+ <em>and</em> a price-setup score of 55+, the same entry rule we backtested.</p>
+        </article>
+      </div>
+      <p class="fine">Position size and stop-loss come from the risk profile you pick: the size is set so that hitting the stop costs about the investor's risk budget per trade. Fundamentals are current figures from Yahoo Finance and are not backtested, because free data has no point-in-time history. Full detail is in the project's methodology notes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Educational project, not investment advice.</strong> Scores are a screening aid built for a finance class. Data comes from Yahoo Finance and can be delayed or incomplete. Past performance, backtested or not, does not predict future results.</p>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="d-title">
+    <div class="d-inner" id="d-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
