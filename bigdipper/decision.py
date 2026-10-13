@@ -13,7 +13,7 @@ from .config import (
     RiskProfile,
     Settings,
 )
-from .fundamentals import fundamental_components
+from .fundamentals import fundamental_components, fundamental_score
 from .technicals import Component, technical_components
 
 
@@ -88,9 +88,9 @@ def explain(a: "Analysis", profile: RiskProfile, settings: Settings) -> str:
     else:
         parts.append(f"Verdict: BUY THE DIP. Combined score {a.composite:.0f}. For a {profile.name} investor: position of about {a.position_size:.1%} of the portfolio with a stop-loss at ${a.stop_price:,.2f} ({profile.stop_loss:.0%} below the price).")
     if a.missing_fundamentals >= MAX_MISSING_FOR_BUY:
-        parts.append(f"Data warning: {a.missing_fundamentals} of 8 fundamental metrics were unavailable (common for ETFs, indexes and crypto), so the business score is mostly neutral filler and this can never be a Buy.")
+        parts.append(f"Data warning: {a.missing_fundamentals} of 8 fundamental metrics were unavailable (common for ETFs, indexes and crypto), so the business score rests on too little data to trust and this can never be a Buy.")
     elif a.missing_fundamentals:
-        parts.append(f"Note: {a.missing_fundamentals} fundamental metric(s) were unavailable and received neutral marks.")
+        parts.append(f"Note: the business score uses {8 - a.missing_fundamentals} of 8 metrics; {a.missing_fundamentals} had no data from Yahoo and were left out, not guessed.")
     return " ".join(parts)
 
 
@@ -105,7 +105,7 @@ def build_analysis(
     profile = PROFILES[profile] if isinstance(profile, str) else profile
     f_comps = fundamental_components(fundamentals)
     t_comps = technical_components(ind_row)
-    fund_score = sum(c.points for c in f_comps)
+    fund_score, _ = fundamental_score(f_comps)
     tech_score = sum(c.points for c in t_comps)
     verdict, composite, size = decide(ind_row["drawdown"], fund_score, tech_score, profile, settings)
     price = float(ind_row["close"])
@@ -127,7 +127,7 @@ def build_analysis(
         missing_fundamentals=sum(c.missing for c in f_comps),
     )
     if a.verdict == VERDICT_BUY and a.missing_fundamentals >= MAX_MISSING_FOR_BUY:
-        # mostly neutral marks is not evidence of quality (ETFs, indexes, crypto, thin coverage): never a Buy
+        # too little data is not evidence of quality (ETFs, indexes, crypto, thin coverage): never a Buy
         a.verdict, a.position_size, a.stop_price = VERDICT_WAIT, 0.0, None
     a.explanation = explain(a, profile, settings)
     return a

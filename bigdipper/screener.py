@@ -91,6 +91,7 @@ def run_screen(out_path: str | Path = "web/data/dippers.json", universe: list[st
                 },
                 "components": [c.to_dict() for c in base.components],
                 "missing_fundamentals": base.missing_fundamentals,
+                "metrics_scored": 8 - base.missing_fundamentals,
                 "sparkline": ind["close"].tail(120).round(2).tolist(),
             }
         )

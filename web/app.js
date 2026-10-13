@@ -144,7 +144,10 @@
   function renderAll() { renderSummary(); renderChips(); renderList(); }
 
   function compRows(comps, cls) {
-    return comps.map((c) => `<div class="comp ${c.missing ? "missing" : ""}">
+    return comps.map((c) => c.missing
+      ? `<div class="comp missing"><div class="nm">${esc(c.name)}<small>No data from Yahoo for this company. Left out of the score, not guessed.</small></div>
+      <div class="bar big"></div><div class="pts">not scored</div></div>`
+      : `<div class="comp">
       <div class="nm">${esc(c.name)}<small>${esc(c.value)}. ${esc(c.note)}</small></div>
       <div class="bar big ${cls}"><i style="width:${(c.points / c.max_points) * 100}%"></i></div>
       <div class="pts">${c.points.toFixed(1)} / ${c.max_points}</div></div>`).join("");
@@ -184,7 +187,7 @@
         return `<div class="fact"><span>${p}</span><b><span class="badge ${vv.key}">${vv.icon} ${vv.label}</span></b>
           <small>${x.position_size > 0 ? `${pct(x.position_size, 1)} position, stop ${money(x.stop_price)}` : "No position"}</small></div>`;
       }).join("")}</div>
-      <p class="fine" style="margin-top:16px">Risk profile "${esc(state.profile)}": about ${pct(prof.risk_budget, 1)} of the portfolio at risk per trade, ${pct(prof.stop_loss, 0)} stop-loss, ${pct(prof.max_position, 0)} maximum position, minimum business score ${prof.min_fundamental_score}. ${s.missing_fundamentals ? `${s.missing_fundamentals} fundamental metric(s) were unavailable and got neutral marks.` : ""} Educational only, not investment advice.</p>`;
+      <p class="fine" style="margin-top:16px">Risk profile "${esc(state.profile)}": about ${pct(prof.risk_budget, 1)} of the portfolio at risk per trade, ${pct(prof.stop_loss, 0)} stop-loss, ${pct(prof.max_position, 0)} maximum position, minimum business score ${prof.min_fundamental_score}. ${s.missing_fundamentals ? `The business score uses ${s.metrics_scored ?? 8 - s.missing_fundamentals} of 8 metrics; the rest had no data and were left out.` : ""} Educational only, not investment advice.</p>`;
     const dlg = $("detail");
     if (!dlg.open) dlg.showModal();
     $("d-close").addEventListener("click", () => dlg.close());

@@ -29,9 +29,27 @@ for t in ["SPY", "BRK-B", "TSLA", "GME", "COIN", "RIVN", "ARM", "SMCI", "BTC-USD
         return f"{a.verdict}, F={a.fund_score:.0f} T={a.tech_score:.0f} missing={a.missing_fundamentals}"
     check(f"analyze {t}", f)
 
+def company_types():
+    names = lambda t: [c.name for c in analyze_ticker(t)[0].components if c.group == "fundamental"]
+    mcd, bac = names("MCD"), names("BAC")
+    assert "Return on assets" in mcd and "Net debt / EBITDA" in mcd and "Return on equity" not in mcd, mcd
+    assert "Price-to-book" in bac and "Free-cash-flow yield" not in bac, bac
+    return "negative-equity (MCD) and financial (BAC) use their own metrics"
+check("company-type metric selection", company_types)
+
+def coverage_improved():
+    d = json.load(open("web/data/dippers.json"))
+    thin = [s["ticker"] for s in d["stocks"] if s["metrics_scored"] < 5]
+    assert len(thin) <= 5, thin
+    fin = [s for s in d["stocks"] if s["sector"] == "Financial Services"]
+    assert all(s["metrics_scored"] >= 6 for s in fin), [s["ticker"] for s in fin if s["metrics_scored"] < 6]
+    return f"{len(thin)} thin-data stocks; all {len(fin)} financials scored on 6+ metrics"
+check("data coverage after sector-aware scoring", coverage_improved)
+
 def determinism():
     a1 = analyze_ticker("MSFT")[0]; a2 = analyze_ticker("MSFT")[0]
-    assert (a1.fund_score, a1.tech_score, a1.verdict) == (a2.fund_score, a2.tech_score, a2.verdict)
+    # fundamentals use Yahoo's live price (P/E, FCF yield), so allow tiny drift while the market is open
+    assert abs(a1.fund_score - a2.fund_score) < 0.5 and abs(a1.tech_score - a2.tech_score) < 1e-6 and a1.verdict == a2.verdict
 check("deterministic repeat run (MSFT)", determinism)
 
 for t in ["NVDA", "INTC", "SPY", "PYPL", "META"]:

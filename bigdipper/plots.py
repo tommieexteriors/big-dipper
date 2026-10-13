@@ -35,7 +35,7 @@ def plot_waterfall(analysis, group: str | None = None):
     ax.barh(y, [c.max_points for c in comps], color="#e8e8e8")
     ax.barh(y, [c.points for c in comps], color=[GREEN if c.group == "fundamental" else BLUE for c in comps], hatch=None)
     for i, c in enumerate(comps):
-        ax.text(c.max_points + 0.3, i, f"{c.points:.1f}/{c.max_points:g}  {c.value}" + ("  (missing)" if c.missing else ""), va="center", fontsize=8)
+        ax.text(c.max_points + 0.3, i, "no data, left out of score" if c.missing else f"{c.points:.1f}/{c.max_points:g}  {c.value}", va="center", fontsize=8)
     ax.set_yticks(list(y))
     ax.set_yticklabels([f"{c.name}" for c in comps])
     ax.invert_yaxis()

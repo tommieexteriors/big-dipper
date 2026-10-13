@@ -42,10 +42,41 @@ def test_linear_scoring_direction_and_missing():
     assert linear(None, 0, 1, 10) is None
 
 
-def test_missing_fundamentals_get_neutral_marks_and_are_flagged():
+def test_missing_fundamentals_are_left_out_not_guessed():
+    from bigdipper.fundamentals import fundamental_score
     comps = fundamental_components({})
     assert all(c.missing for c in comps)
-    assert sum(c.points for c in comps) == pytest.approx(50)
+    assert fundamental_score(comps) == (50.0, 0)  # nothing to score: neutral, and flagged / never a Buy elsewhere
+
+
+def test_score_is_scaled_to_available_metrics():
+    from bigdipper.fundamentals import fundamental_score
+    # perfect values on 5 of 8 metrics must score 100, not be dragged to 50 by the missing ones
+    f = {"pe": 10, "peg": 0.8, "roe": 0.3, "profit_margin": 0.3, "revenue_growth": 0.3}
+    score, n = fundamental_score(fundamental_components(f))
+    assert n == 5 and score == pytest.approx(100)
+
+
+def test_thin_data_is_pulled_toward_neutral():
+    from bigdipper.fundamentals import fundamental_score
+    f = {"pe": 10, "peg": 0.8}  # perfect, but only 2 of 8 metrics
+    score, n = fundamental_score(fundamental_components(f))
+    assert n == 2 and 50 < score < 80 and score == pytest.approx(50 + 50 * 2 / 5)
+
+
+def test_negative_equity_uses_roa_and_net_debt():
+    f = {"sector": "Consumer Cyclical", "negative_equity": True, "roa": 0.15, "net_debt_to_ebitda": 1.5, "fcf_yield": 0.05}
+    names = [c.name for c in fundamental_components(f)]
+    assert "Return on assets" in names and "Net debt / EBITDA" in names
+    assert "Return on equity" not in names and "Debt-to-equity" not in names and len(names) == 8
+
+
+def test_financials_use_book_value_and_roa_not_fcf_or_leverage():
+    f = {"sector": "Financial Services", "price_to_book": 1.1, "roa": 0.011, "roe": 0.11}
+    comps = {c.name: c for c in fundamental_components(f)}
+    assert "Price-to-book" in comps and "Return on assets" in comps and len(comps) == 8
+    assert "Free-cash-flow yield" not in comps and "Debt-to-equity" not in comps
+    assert comps["Price-to-book"].points > 10 and not comps["Return on assets"].missing
 
 
 def test_unprofitable_company_scores_zero_on_valuation():
@@ -145,3 +176,15 @@ def test_buy_requires_technical_trigger_matching_backtest():
     assert decide(-0.25, 90, 55, p)[0] == VERDICT_BUY
     from bigdipper.config import DEFAULT_SETTINGS
     assert BacktestParams().entry_min_tech == DEFAULT_SETTINGS.min_technical_for_buy
+
+
+def test_unfinished_session_is_dropped_until_after_the_close():
+    from datetime import datetime
+    from bigdipper.data import MARKET_TZ, drop_unfinished_session
+    idx = pd.to_datetime(["2026-10-12", "2026-10-13"])
+    df = pd.DataFrame({"Close": [1.0, 2.0]}, index=idx)
+    at = lambda h, m, d=13: datetime(2026, 10, d, h, m, tzinfo=MARKET_TZ)
+    assert len(drop_unfinished_session(df, at(10, 0))) == 1   # mid-session: drop today's partial bar
+    assert len(drop_unfinished_session(df, at(15, 59))) == 1
+    assert len(drop_unfinished_session(df, at(16, 30))) == 2  # after the close: keep it
+    assert len(drop_unfinished_session(df, at(10, 0, d=14))) == 2  # next day, last bar is yesterday: keep

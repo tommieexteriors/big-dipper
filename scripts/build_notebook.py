@@ -65,7 +65,7 @@ fig = plot_price(ind, TICKER, DIP_THRESHOLD); plt.show()"""))
 
 cells.append(md("""## 4. Fundamental analysis: is the business healthy? (0-100)
 Four pillars, 25 points each: **valuation** (P/E, PEG), **profitability** (ROE, profit margin), **growth** (revenue, earnings),
-**financial health** (debt-to-equity, free-cash-flow yield). Thresholds are in `bigdipper/fundamentals.py` and justified in `docs/METHODOLOGY.md`."""))
+**financial health** (debt-to-equity, free-cash-flow yield). Companies with negative equity (heavy buybacks) and financials (banks) get substitute metrics because the usual ones are meaningless for them; metrics Yahoo does not report are left out of the score, not guessed. Thresholds are in `bigdipper/fundamentals.py` and justified in `docs/METHODOLOGY.md`."""))
 cells.append(code("""fund = pd.DataFrame([c.to_dict() for c in analysis.components if c.group == "fundamental"])
 display(fund[["name", "value", "points", "max_points", "note"]])
 print(f"Fundamental score: {analysis.fund_score:.0f} / 100")"""))

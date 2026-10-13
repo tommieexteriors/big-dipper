@@ -24,8 +24,16 @@ Eight metrics, 12.5 points each, scored linearly between a "zero points" value a
 | Health | Debt-to-equity | 2.0x | 0.5x | Leverage turns a dip into insolvency risk. |
 | Health | Free-cash-flow yield | 0% | 5% | Cash generation funds the recovery; FCF yield compares it to price. |
 
-Missing metrics get neutral half marks and are flagged (never guessed). **JUDGMENT:** equal weights, and the bands above; sector-relative bands
-(banks have high leverage, software has high P/E) are a known improvement.
+**Company-type adjustments.** Two kinds of company make the usual measures meaningless, so they get substitutes (still 8 metrics):
+
+| Company type | Why the usual measure fails | Replacement (0 pts at, full pts at) |
+|---|---|---|
+| Negative shareholders' equity (heavy buybacks, e.g. MCD, LOW, BKNG, AZO) | ROE and debt-to-equity divide by equity, which is below zero | Return on assets (0%, 10%) instead of ROE; Net debt / EBITDA (4x, 1x) instead of debt-to-equity |
+| Financials: banks, brokers, insurers | Debt is their raw material; free cash flow is distorted by deposits and loans | Price-to-book (3.0x, 1.0x) in place of free-cash-flow yield; Return on assets (0%, 1.2%) in place of debt-to-equity |
+
+**Missing data.** If Yahoo has no figure for an applicable metric, that metric is **left out** (never guessed): the score is points earned divided by points available, scaled to 100. With fewer than 5 metrics scored, the score is pulled toward a neutral 50 in proportion to how little data there is (`50 + (score - 50) x n/5`), so a great-looking score can never rest on two numbers. With 4 or more metrics missing, the stock can never be a Buy. The site shows how many metrics were scored.
+
+**JUDGMENT:** equal weights and the bands above; the substitute thresholds (P/B 1-3, bank ROA 1.2%, net debt/EBITDA 1-4x) are our own reasonable ranges, not industry standards. Sector-relative bands for everything else (software P/E vs utilities) remain a known improvement.
 
 ## Technical score (0-100)
 Four signals, 25 points each, built for the question *"is the selling exhausted and the longer-term trend still intact?"*
@@ -55,6 +63,9 @@ Position size (Buy only) = `min(max_position, risk_budget / stop_loss)`:
 | Aggressive | 2.0% | 18% | 20% | 11.1% |
 
 The logic: if the stop is hit you lose `position × stop`, which equals the risk budget. **JUDGMENT:** the budgets and stops.
+
+## Closing prices only
+The model is built on daily closes. If the tool is run while the US market is open (before 4:20 PM Eastern), Yahoo returns today's unfinished price as the latest "close"; the tool drops that bar and uses the last completed session. The scheduled daily refresh runs after the close, so it includes the day's real close. (Fundamentals such as P/E use Yahoo's live price and can drift slightly during market hours.)
 
 ## Backtest design
 * Signal at the close of day *t* uses only data through day *t*; the trade executes at day *t+1*'s open. Indicators are tested for no look-ahead (`tests/`).

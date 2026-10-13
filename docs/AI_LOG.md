@@ -18,6 +18,9 @@ Add an entry whenever Claude gets something wrong, suggests something you hadn't
 | 2026-10-13 | Stress test: ETFs, indexes and crypto got a fake fundamental score of ~50 (all metrics missing -> neutral marks) and could have been rated Buy | Added rule: 4+ of 8 fundamentals missing means never Buy, with a visible data warning | Claude found it, team to confirm threshold |
 | 2026-10-13 | Stress test: empty ticker gave a cryptic error; JSON had no price date; delisted tickers could slip into the screener | Clear error messages, `as_of` date in JSON, stale-price filter | Claude |
 | 2026-10-13 | Claude's own stress-test check for `as_of` passed even though the field was missing (sloppy assertion) | Rewrote the check so it fails when the field is absent | Claude, caught on review |
+| 2026-10-13 | Team noticed some stocks showed "n/a" for ROE etc. Claude investigated: negative-equity companies (buybacks) and banks make ROE / debt-to-equity / FCF meaningless; plus some real Yahoo gaps | Substituted sector-appropriate metrics, left missing metrics out of the score instead of giving half marks, labelled gaps clearly in the UI | Team asked the question, Claude proposed, team approved |
+| 2026-10-13 | Claude's first version of that fix scaled FISV to 91 on only 2 of 8 metrics (caught in the before/after comparison) | Pulled thin-data scores toward neutral 50 (needs 5+ metrics for full weight) | Claude, caught on review |
+| 2026-10-13 | A stress test failed on a repeat run: running during market hours made Yahoo's unfinished day look like a close. Claude had also told the team the site shows yesterday's close during market hours, which was not true of the code | Dropped the unfinished session; added a test; corrected the explanation | Claude, caught by the stress test |
 | 2026-10-13 | Yahoo reports debt-to-equity as a percentage (78 = 0.78x); easy to mis-scale | Divided by 100 in `data.py` | Claude |
 
 ## Judgment calls the humans made or must confirm
