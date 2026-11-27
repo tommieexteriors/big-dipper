@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T03:42:39+00:00",
+ "generated_at": "2026-11-27T03:44:27+00:00",
  "universe_size": 503,
  "as_of": "2026-11-25",
  "dip_count": 250,
@@ -352,7 +352,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.21",
+     "value": "PEG 0.24",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -582,26 +582,26 @@
    "high_52w": 277.36,
    "rsi": 28.6812,
    "fund_score": 19.0841,
-   "tech_score": 45.2777,
-   "composite": 32.1809,
+   "tech_score": 45.3125,
+   "composite": 32.1983,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 40.7). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 43.2). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 40.7). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 43.2). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 40.7). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 35-point minimum for a aggressive investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "COIN is 63% below its 52-week high. Business quality scores 19/100: strongest on Earnings growth (67%), weakest on P/E ratio (P/E 43.2). The price setup scores 45/100: best signal is RSI (14) (RSI 29), weakest is Long-term trend (200-day) (-40% vs 200-day avg). Verdict: AVOID. Business quality is below the 35-point minimum for a aggressive investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     }
    },
    "components": [
@@ -610,7 +610,7 @@
      "name": "P/E ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "P/E 40.7",
+     "value": "P/E 43.2",
      "note": "Loss-making, so no earnings to value.",
      "missing": false
     },
@@ -1383,8 +1383,8 @@
    "high_52w": 140.94,
    "rsi": 35.9261,
    "fund_score": 25.6964,
-   "tech_score": 29.8988,
-   "composite": 27.7976,
+   "tech_score": 29.9219,
+   "composite": 27.8092,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -1917,8 +1917,8 @@
    "high_52w": 254.6115,
    "rsi": 38.4833,
    "fund_score": 71.3289,
-   "tech_score": 34.9323,
-   "composite": 53.1306,
+   "tech_score": 34.9428,
+   "composite": 53.1358,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -2191,19 +2191,19 @@
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 249.9824,
-     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.5), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $249.98 (8% below the price)."
+     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.1), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $249.98 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 239.1136,
-     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.5), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $239.11 (12% below the price)."
+     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.1), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $239.11 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 222.8104,
-     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.5), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $222.81 (18% below the price)."
+     "explanation": "INTU is 59% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 10.1), weakest on Revenue growth (12%). The price setup scores 68/100: best signal is RSI (14) (RSI 30), weakest is Long-term trend (200-day) (-21% vs 200-day avg). Verdict: BUY THE DIP. Combined score 83. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $222.81 (18% below the price)."
     }
    },
    "components": [
@@ -2212,7 +2212,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 10.5",
+     "value": "P/E 10.1",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -2451,8 +2451,8 @@
    "high_52w": 316.2828,
    "rsi": 35.1197,
    "fund_score": 76.5557,
-   "tech_score": 38.581,
-   "composite": 57.5684,
+   "tech_score": 38.6104,
+   "composite": 57.5831,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -2725,19 +2725,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.6), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.5), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.6), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.5), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.6), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "FLEX is 59% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 8.5), weakest on PEG ratio (PEG 3.79). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.20), weakest is Long-term trend (200-day) (-35% vs 200-day avg). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -2746,7 +2746,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 8.6",
+     "value": "P/E 8.5",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -3518,27 +3518,27 @@
    "drawdown": -0.5784,
    "high_52w": 246.3784,
    "rsi": 37.7805,
-   "fund_score": 65.5,
-   "tech_score": 35.4398,
-   "composite": 50.4699,
+   "fund_score": 63.5625,
+   "tech_score": 35.4612,
+   "composite": 49.5119,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 64/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 64/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 66/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ORCL is 58% below its 52-week high. Business quality scores 64/100: strongest on P/E ratio (P/E 9.4), weakest on Debt-to-equity (2.52x). The price setup scores 35/100: best signal is Bollinger Bands (%B 0.10), weakest is Long-term trend (200-day) (-31% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -3554,9 +3554,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 3.0,
+     "points": 1.1,
      "max_points": 12.5,
-     "value": "PEG 2.52",
+     "value": "PEG 2.83",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -4320,8 +4320,8 @@
    "high_52w": 432.8701,
    "rsi": 35.9352,
    "fund_score": 87.6329,
-   "tech_score": 49.6504,
-   "composite": 68.6416,
+   "tech_score": 49.6621,
+   "composite": 68.6475,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -4587,8 +4587,8 @@
    "high_52w": 721.1412,
    "rsi": 37.2616,
    "fund_score": 84.4889,
-   "tech_score": 44.3019,
-   "composite": 64.3954,
+   "tech_score": 44.3121,
+   "composite": 64.4005,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -4861,19 +4861,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.2), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.3), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.2), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.3), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.2), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "STX is 57% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 7.3), weakest on Free-cash-flow yield (2%). The price setup scores 27/100: best signal is RSI (14) (RSI 37), weakest is Long-term trend (200-day) (-33% vs 200-day avg). Verdict: WAIT. The combined score of 58 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -4882,7 +4882,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 7.2",
+     "value": "P/E 7.3",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -5387,27 +5387,27 @@
    "drawdown": -0.5611,
    "high_52w": 483.3472,
    "rsi": 35.5342,
-   "fund_score": 82.7868,
+   "fund_score": 80.7868,
    "tech_score": 39.3449,
-   "composite": 61.0659,
+   "composite": 60.0659,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TER is 56% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (43%), weakest on Free-cash-flow yield (2%). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "TER is 56% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (43%), weakest on PEG ratio (PEG 2.59). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TER is 56% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (43%), weakest on Free-cash-flow yield (2%). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "TER is 56% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (43%), weakest on PEG ratio (PEG 2.59). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TER is 56% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (43%), weakest on Free-cash-flow yield (2%). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "TER is 56% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (43%), weakest on PEG ratio (PEG 2.59). The price setup scores 39/100: best signal is RSI (14) (RSI 36), weakest is Long-term trend (200-day) (-39% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 39 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
@@ -5423,9 +5423,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 4.6,
+     "points": 2.6,
      "max_points": 12.5,
-     "value": "PEG 2.27",
+     "value": "PEG 2.59",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -5654,36 +5654,36 @@
    "drawdown": -0.5579,
    "high_52w": 345.85,
    "rsi": 38.286,
-   "fund_score": 64.4994,
-   "tech_score": 35.9705,
-   "composite": 50.235,
+   "fund_score": 64.5918,
+   "tech_score": 36.0109,
+   "composite": 50.3014,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "BE is 56% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "BE is 56% below its 52-week high. Business quality scores 65/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "BE is 56% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "BE is 56% below its 52-week high. Business quality scores 65/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "BE is 56% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "BE is 56% below its 52-week high. Business quality scores 65/100: strongest on PEG ratio (PEG 0.05), weakest on Free-cash-flow yield (-0%). The price setup scores 36/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-32% vs 200-day avg). Verdict: WAIT. The combined score of 50 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     }
    },
    "components": [
     {
      "group": "fundamental",
      "name": "P/E ratio",
-     "points": 5.6,
+     "points": 5.7,
      "max_points": 12.5,
-     "value": "P/E 28.7",
+     "value": "P/E 28.6",
      "note": "Priced richly relative to earnings.",
      "missing": false
     },
@@ -5780,9 +5780,9 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 3.7,
+     "points": 3.8,
      "max_points": 25,
-     "value": "1.1x normal volume",
+     "value": "1.2x normal volume",
      "note": "No volume spike; the decline is quiet drift.",
      "missing": false
     }
@@ -6456,8 +6456,8 @@
    "high_52w": 426.89,
    "rsi": 43.1131,
    "fund_score": 63.4087,
-   "tech_score": 24.535,
-   "composite": 43.9719,
+   "tech_score": 24.5947,
+   "composite": 44.0017,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -6581,7 +6581,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 6.6,
+     "points": 6.7,
      "max_points": 25,
      "value": "1.3x normal volume",
      "note": "No volume spike; the decline is quiet drift.",
@@ -6723,8 +6723,8 @@
    "high_52w": 375.8577,
    "rsi": 40.0176,
    "fund_score": 93.8932,
-   "tech_score": 32.9843,
-   "composite": 63.4388,
+   "tech_score": 32.9919,
+   "composite": 63.4426,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -6990,8 +6990,8 @@
    "high_52w": 50.17,
    "rsi": 36.6873,
    "fund_score": 78.6392,
-   "tech_score": 34.7442,
-   "composite": 56.6917,
+   "tech_score": 34.7643,
+   "composite": 56.7017,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -7027,7 +7027,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.05",
+     "value": "PEG 0.06",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -7294,7 +7294,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.25",
+     "value": "PEG 0.26",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -7791,8 +7791,8 @@
    "high_52w": 137.08,
    "rsi": 30.6222,
    "fund_score": 70.8724,
-   "tech_score": 44.5053,
-   "composite": 57.6888,
+   "tech_score": 44.5465,
+   "composite": 57.7094,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -8055,7 +8055,7 @@
    "price": 261.37,
    "day_change": 0.0397,
    "drawdown": -0.5143,
-   "high_52w": 538.102,
+   "high_52w": 538.1021,
    "rsi": 31.6971,
    "fund_score": 85.561,
    "tech_score": 60.9488,
@@ -8591,27 +8591,27 @@
    "drawdown": -0.5044,
    "high_52w": 1213.1825,
    "rsi": 35.6844,
-   "fund_score": 98.2091,
-   "tech_score": 56.777,
-   "composite": 77.493,
+   "fund_score": 98.176,
+   "tech_score": 56.8484,
+   "composite": 77.5122,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 553.15,
-     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 77. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $553.15 (8% below the price)."
+     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 78. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $553.15 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 529.1,
-     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 77. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $529.10 (12% below the price)."
+     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 78. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $529.10 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 493.025,
-     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 77. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $493.03 (18% below the price)."
+     "explanation": "MU is 50% below its 52-week high. Business quality scores 98/100: strongest on P/E ratio (P/E 2.9), weakest on Free-cash-flow yield (4%). The price setup scores 57/100: best signal is Bollinger Bands (%B 0.12), weakest is Long-term trend (200-day) (-23% vs 200-day avg). Verdict: BUY THE DIP. Combined score 78. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $493.03 (18% below the price)."
     }
    },
    "components": [
@@ -8717,7 +8717,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 13.5,
+     "points": 13.6,
      "max_points": 25,
      "value": "1.5x normal volume",
      "note": "Heavy volume suggests panic selling that may be washing out.",
@@ -8896,7 +8896,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.60",
+     "value": "PEG 0.62",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -9133,19 +9133,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.5), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.6), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.5), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.6), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.5), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "NRG is 49% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 9.6), weakest on Debt-to-equity (4.39x). The price setup scores 11/100: best signal is RSI (14) (RSI 47), weakest is Long-term trend (200-day) (-29% vs 200-day avg). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -9154,7 +9154,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 9.5",
+     "value": "P/E 9.6",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -9392,27 +9392,27 @@
    "drawdown": -0.4944,
    "high_52w": 587.5861,
    "rsi": 36.8733,
-   "fund_score": 84.5853,
+   "fund_score": 80.1647,
    "tech_score": 66.8265,
-   "composite": 75.7059,
+   "composite": 73.4956,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 273.2952,
-     "explanation": "DELL is 49% below its 52-week high. Business quality scores 85/100: strongest on P/E ratio (P/E 9.7), weakest on Profit margin (8%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 76. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $273.30 (8% below the price)."
+     "explanation": "DELL is 49% below its 52-week high. Business quality scores 80/100: strongest on P/E ratio (P/E 9.7), weakest on Free-cash-flow yield (-0%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 73. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $273.30 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 261.4128,
-     "explanation": "DELL is 49% below its 52-week high. Business quality scores 85/100: strongest on P/E ratio (P/E 9.7), weakest on Profit margin (8%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 76. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $261.41 (12% below the price)."
+     "explanation": "DELL is 49% below its 52-week high. Business quality scores 80/100: strongest on P/E ratio (P/E 9.7), weakest on Free-cash-flow yield (-0%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 73. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $261.41 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 243.5892,
-     "explanation": "DELL is 49% below its 52-week high. Business quality scores 85/100: strongest on P/E ratio (P/E 9.7), weakest on Profit margin (8%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 76. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $243.59 (18% below the price)."
+     "explanation": "DELL is 49% below its 52-week high. Business quality scores 80/100: strongest on P/E ratio (P/E 9.7), weakest on Free-cash-flow yield (-0%). The price setup scores 67/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is Long-term trend (200-day) (-15% vs 200-day avg). Verdict: BUY THE DIP. Combined score 73. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $243.59 (18% below the price)."
     }
    },
    "components": [
@@ -9437,18 +9437,18 @@
     {
      "group": "fundamental",
      "name": "Return on assets",
-     "points": 10.8,
+     "points": 12.5,
      "max_points": 12.5,
-     "value": "9%",
+     "value": "11%",
      "note": "Earns good returns on its assets. (Return on equity is not meaningful: shareholder equity is negative after buybacks.)",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Profit margin",
-     "points": 4.7,
+     "points": 5.4,
      "max_points": 12.5,
-     "value": "8%",
+     "value": "9%",
      "note": "Thin or negative margins.",
      "missing": false
     },
@@ -9457,7 +9457,7 @@
      "name": "Revenue growth",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "58%",
+     "value": "103%",
      "note": "Growing.",
      "missing": false
     },
@@ -9466,26 +9466,26 @@
      "name": "Earnings growth",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "273%",
+     "value": "287%",
      "note": "Growing.",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Net debt / EBITDA",
-     "points": 11.1,
+     "points": 12.3,
      "max_points": 12.5,
-     "value": "1.3x",
+     "value": "1.1x",
      "note": "Debt is small relative to earnings. (Debt-to-equity is not meaningful with negative equity.)",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Free-cash-flow yield",
-     "points": 8.0,
+     "points": 0.0,
      "max_points": 12.5,
-     "value": "3%",
-     "note": "Generates real cash relative to its price.",
+     "value": "-0%",
+     "note": "Little or negative free cash flow.",
      "missing": false
     },
     {
@@ -9659,9 +9659,9 @@
    "drawdown": -0.4873,
    "high_52w": 1060.4062,
    "rsi": 34.6597,
-   "fund_score": 75.0518,
+   "fund_score": 75.0532,
    "tech_score": 37.5938,
-   "composite": 56.3228,
+   "composite": 56.3235,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -10468,19 +10468,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 5.76). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 6.09). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 5.76). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 6.09). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 5.76). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. The combined score of 27 is below 45; neither the business nor the chart makes a convincing case. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "AXON is 47% below its 52-week high. Business quality scores 39/100: strongest on Revenue growth (28%), weakest on PEG ratio (PEG 6.09). The price setup scores 15/100: best signal is Volume (capitulation) (1.3x normal volume), weakest is Bollinger Bands (%B 0.50). Verdict: AVOID. The combined score of 27 is below 45; neither the business nor the chart makes a convincing case. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     }
    },
    "components": [
@@ -10498,7 +10498,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 5.76",
+     "value": "PEG 6.09",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -11262,8 +11262,8 @@
    "high_52w": 109.35,
    "rsi": 38.783,
    "fund_score": 96.7981,
-   "tech_score": 32.2449,
-   "composite": 64.5215,
+   "tech_score": 32.2516,
+   "composite": 64.5248,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -11795,9 +11795,9 @@
    "drawdown": -0.4448,
    "high_52w": 66.0354,
    "rsi": 49.4189,
-   "fund_score": 45.7883,
+   "fund_score": 45.7508,
    "tech_score": 18.1634,
-   "composite": 31.9758,
+   "composite": 31.9571,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -11822,9 +11822,9 @@
     {
      "group": "fundamental",
      "name": "P/E ratio",
-     "points": 6.7,
+     "points": 6.6,
      "max_points": 12.5,
-     "value": "P/E 26.7",
+     "value": "P/E 26.8",
      "note": "Priced richly relative to earnings.",
      "missing": false
     },
@@ -12063,26 +12063,26 @@
    "high_52w": 73.46,
    "rsi": 36.7522,
    "fund_score": 88.5495,
-   "tech_score": 70.8974,
-   "composite": 79.7235,
+   "tech_score": 70.9159,
+   "composite": 79.7327,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 37.5544,
-     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.8), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $37.55 (8% below the price)."
+     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.9), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $37.55 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 35.9216,
-     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.8), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $35.92 (12% below the price)."
+     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.9), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $35.92 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 33.4724,
-     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.8), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $33.47 (18% below the price)."
+     "explanation": "HPE is 44% below its 52-week high. Business quality scores 89/100: strongest on P/E ratio (P/E 6.9), weakest on Profit margin (9%). The price setup scores 71/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.6x normal volume). Verdict: BUY THE DIP. Combined score 80. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $33.47 (18% below the price)."
     }
    },
    "components": [
@@ -12091,7 +12091,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 6.8",
+     "value": "P/E 6.9",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -13662,7 +13662,7 @@
    "price": 38.45,
    "day_change": 0.01,
    "drawdown": -0.4041,
-   "high_52w": 64.5283,
+   "high_52w": 64.5284,
    "rsi": 62.1445,
    "fund_score": 52.8106,
    "tech_score": 14.1682,
@@ -14999,36 +14999,36 @@
    "drawdown": -0.3911,
    "high_52w": 1174.173,
    "rsi": 37.2663,
-   "fund_score": 93.6967,
+   "fund_score": 93.8744,
    "tech_score": 46.5615,
-   "composite": 70.1291,
+   "composite": 70.218,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.6). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.3). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.6). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.3). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.6). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "GEV is 39% below its 52-week high. Business quality scores 94/100: strongest on PEG ratio (PEG 0.04), weakest on P/E ratio (P/E 27.3). The price setup scores 47/100: best signal is Bollinger Bands (%B 0.15), weakest is Long-term trend (200-day) (-25% vs 200-day avg). Verdict: WAIT. The business looks good, but the price setup score of 47 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
     {
      "group": "fundamental",
      "name": "P/E ratio",
-     "points": 6.2,
+     "points": 6.4,
      "max_points": 12.5,
-     "value": "P/E 27.6",
+     "value": "P/E 27.3",
      "note": "Priced richly relative to earnings.",
      "missing": false
     },
@@ -16067,9 +16067,9 @@
    "drawdown": -0.3748,
    "high_52w": 376.353,
    "rsi": 38.9805,
-   "fund_score": 78.9165,
+   "fund_score": 78.9202,
    "tech_score": 50.7549,
-   "composite": 64.8357,
+   "composite": 64.8375,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -16334,9 +16334,9 @@
    "drawdown": -0.3748,
    "high_52w": 649.42,
    "rsi": 38.0128,
-   "fund_score": 66.668,
-   "tech_score": 76.078,
-   "composite": 71.373,
+   "fund_score": 66.6827,
+   "tech_score": 76.1155,
+   "composite": 71.3991,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
@@ -16460,7 +16460,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 21.4,
+     "points": 21.5,
      "max_points": 25,
      "value": "1.9x normal volume",
      "note": "Heavy volume suggests panic selling that may be washing out.",
@@ -16601,9 +16601,9 @@
    "drawdown": -0.3731,
    "high_52w": 479.9351,
    "rsi": 40.7546,
-   "fund_score": 91.7444,
-   "tech_score": 48.604,
-   "composite": 70.1742,
+   "fund_score": 91.7659,
+   "tech_score": 48.6189,
+   "composite": 70.1924,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -16630,7 +16630,7 @@
      "name": "P/E ratio",
      "points": 12.2,
      "max_points": 12.5,
-     "value": "P/E 15.6",
+     "value": "P/E 15.5",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -17677,19 +17677,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.17), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.18), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.17), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.18), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.17), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. The combined score of 30 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "WYNN is 35% below its 52-week high. Business quality scores 43/100: strongest on PEG ratio (PEG 0.18), weakest on Revenue growth (-8%). The price setup scores 17/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 60). Verdict: AVOID. The combined score of 30 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -17707,7 +17707,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.17",
+     "value": "PEG 0.18",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -17936,9 +17936,9 @@
    "drawdown": -0.3392,
    "high_52w": 479.83,
    "rsi": 36.8247,
-   "fund_score": 82.6779,
+   "fund_score": 82.638,
    "tech_score": 32.803,
-   "composite": 57.7405,
+   "composite": 57.7205,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -17965,7 +17965,7 @@
      "name": "P/E ratio",
      "points": 12.1,
      "max_points": 12.5,
-     "value": "P/E 15.8",
+     "value": "P/E 15.9",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -19042,7 +19042,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.70",
+     "value": "PEG 0.71",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -20072,9 +20072,9 @@
    "drawdown": -0.3298,
    "high_52w": 143.8752,
    "rsi": 48.0991,
-   "fund_score": 71.6647,
+   "fund_score": 71.6347,
    "tech_score": 15.5326,
-   "composite": 43.5987,
+   "composite": 43.5837,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -20101,7 +20101,7 @@
      "name": "P/E ratio",
      "points": 11.7,
      "max_points": 12.5,
-     "value": "P/E 16.5",
+     "value": "P/E 16.6",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -20339,9 +20339,9 @@
    "drawdown": -0.3267,
    "high_52w": 68.8549,
    "rsi": 37.463,
-   "fund_score": 73.9298,
+   "fund_score": 73.9026,
    "tech_score": 33.7582,
-   "composite": 53.844,
+   "composite": 53.8304,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -20366,7 +20366,7 @@
     {
      "group": "fundamental",
      "name": "P/E ratio",
-     "points": 11.8,
+     "points": 11.7,
      "max_points": 12.5,
      "value": "P/E 16.5",
      "note": "Cheap relative to earnings.",
@@ -21140,27 +21140,27 @@
    "drawdown": -0.3219,
    "high_52w": 248.7425,
    "rsi": 49.6123,
-   "fund_score": 84.1806,
-   "tech_score": 30.5775,
-   "composite": 57.379,
+   "fund_score": 83.3234,
+   "tech_score": 30.5855,
+   "composite": 56.9545,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 84/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 83/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 84/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 83/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 84/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
+     "explanation": "QCOM is 32% below its 52-week high. Business quality scores 83/100: strongest on P/E ratio (P/E 13.8), weakest on Revenue growth (-8%). The price setup scores 31/100: best signal is Long-term trend (200-day) (-1% vs 200-day avg), weakest is Bollinger Bands (%B 0.54). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve. Note: the business score uses 7 of 8 metrics; 1 had no data from Yahoo and were left out, not guessed."
     }
    },
    "components": [
@@ -21176,9 +21176,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 11.4,
+     "points": 10.6,
      "max_points": 12.5,
-     "value": "PEG 1.18",
+     "value": "PEG 1.30",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -21407,9 +21407,9 @@
    "drawdown": -0.3209,
    "high_52w": 402.1212,
    "rsi": 36.9305,
-   "fund_score": 73.5722,
-   "tech_score": 49.8061,
-   "composite": 61.6892,
+   "fund_score": 73.5736,
+   "tech_score": 49.8212,
+   "composite": 61.6974,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -21941,9 +21941,9 @@
    "drawdown": -0.3201,
    "high_52w": 398.5413,
    "rsi": 36.1363,
-   "fund_score": 73.6415,
-   "tech_score": 51.8547,
-   "composite": 62.7481,
+   "fund_score": 73.6429,
+   "tech_score": 51.8709,
+   "composite": 62.7569,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -23810,27 +23810,27 @@
    "drawdown": -0.3101,
    "high_52w": 239.18,
    "rsi": 38.1977,
-   "fund_score": 82.0683,
+   "fund_score": 81.1308,
    "tech_score": 52.1272,
-   "composite": 67.0977,
+   "composite": 66.629,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 82/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 81/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 82/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 81/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 82/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "NTAP is 31% below its 52-week high. Business quality scores 81/100: strongest on P/E ratio (P/E 14.8), weakest on Debt-to-equity (1.69x). The price setup scores 52/100: best signal is Long-term trend (200-day) (+6% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 52 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
@@ -23846,10 +23846,10 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 8.5,
+     "points": 7.6,
      "max_points": 12.5,
-     "value": "PEG 1.64",
-     "note": "Price is reasonable for its growth.",
+     "value": "PEG 1.79",
+     "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
     {
@@ -24352,19 +24352,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.6), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.5), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.6), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.5), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.6), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "GNRC is 31% below its 52-week high. Business quality scores 68/100: strongest on P/E ratio (P/E 14.5), weakest on PEG ratio (PEG 15.83). The price setup scores 19/100: best signal is Long-term trend (200-day) (-7% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 43 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -24373,7 +24373,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 14.6",
+     "value": "P/E 14.5",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -26221,19 +26221,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.57). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.65). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.57). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.65). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.57). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ODFL is 30% below its 52-week high. Business quality scores 75/100: strongest on Return on equity (26%), weakest on PEG ratio (PEG 4.65). The price setup scores 17/100: best signal is Long-term trend (200-day) (-13% vs 200-day avg), weakest is Bollinger Bands (%B 0.66). Verdict: WAIT. The combined score of 46 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -26251,7 +26251,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 4.57",
+     "value": "PEG 4.65",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -26518,7 +26518,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.53",
+     "value": "PEG 0.52",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -27548,27 +27548,27 @@
    "drawdown": -0.291,
    "high_52w": 95.69,
    "rsi": 49.5889,
-   "fund_score": 67.2755,
+   "fund_score": 68.4975,
    "tech_score": 37.8135,
-   "composite": 52.5445,
+   "composite": 53.1555,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 67/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (0%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 68/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (1%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 67/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (0%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 68/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (1%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 67/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (0%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "CVNA is 29% below its 52-week high. Business quality scores 68/100: strongest on PEG ratio (PEG 0.24), weakest on Free-cash-flow yield (1%). The price setup scores 38/100: best signal is Long-term trend (200-day) (+0% vs 200-day avg), weakest is RSI (14) (RSI 50). Verdict: WAIT. The combined score of 53 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -27638,9 +27638,9 @@
     {
      "group": "fundamental",
      "name": "Free-cash-flow yield",
-     "points": 1.0,
+     "points": 2.2,
      "max_points": 12.5,
-     "value": "0%",
+     "value": "1%",
      "note": "Little or negative free cash flow.",
      "missing": false
     },
@@ -28080,7 +28080,7 @@
    "price": 241.27,
    "day_change": 0.0084,
    "drawdown": -0.2861,
-   "high_52w": 337.9734,
+   "high_52w": 337.9733,
    "rsi": 39.38,
    "fund_score": 79.4618,
    "tech_score": 44.088,
@@ -28350,8 +28350,8 @@
    "high_52w": 17.0464,
    "rsi": 55.0312,
    "fund_score": 1.875,
-   "tech_score": 25.6561,
-   "composite": 13.7656,
+   "tech_score": 25.6573,
+   "composite": 13.7661,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -29417,9 +29417,9 @@
    "drawdown": -0.2832,
    "high_52w": 92.57,
    "rsi": 45.3386,
-   "fund_score": 69.7019,
-   "tech_score": 38.2772,
-   "composite": 53.9895,
+   "fund_score": 69.6983,
+   "tech_score": 38.2797,
+   "composite": 53.989,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -33430,19 +33430,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.70). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.78). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.70). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 39 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.78). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 39 is below 45; neither the business nor the chart makes a convincing case."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.70). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 39 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "NVR is 26% below its 52-week high. Business quality scores 54/100: strongest on Return on equity (28%), weakest on PEG ratio (PEG 4.78). The price setup scores 23/100: best signal is Long-term trend (200-day) (-6% vs 200-day avg), weakest is RSI (14) (RSI 54). Verdict: AVOID. The combined score of 39 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -33460,7 +33460,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 4.70",
+     "value": "PEG 4.78",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -33697,19 +33697,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.90). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.77). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.90). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.77). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.90). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 35-point minimum for a aggressive investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "TSCO is 26% below its 52-week high. Business quality scores 34/100: strongest on Return on equity (37%), weakest on PEG ratio (PEG 5.77). The price setup scores 25/100: best signal is Long-term trend (200-day) (+12% vs 200-day avg), weakest is RSI (14) (RSI 72). Verdict: AVOID. Business quality is below the 35-point minimum for a aggressive investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     }
    },
    "components": [
@@ -33727,7 +33727,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 5.90",
+     "value": "PEG 5.77",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -34757,27 +34757,27 @@
    "drawdown": -0.25,
    "high_52w": 444.1269,
    "rsi": 38.6246,
-   "fund_score": 77.3445,
+   "fund_score": 77.7232,
    "tech_score": 75.3809,
-   "composite": 76.3627,
+   "composite": 76.5521,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 306.4612,
-     "explanation": "ADI is 25% below its 52-week high. Business quality scores 77/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 76. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $306.46 (8% below the price)."
+     "explanation": "ADI is 25% below its 52-week high. Business quality scores 78/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 77. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $306.46 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 293.1368,
-     "explanation": "ADI is 25% below its 52-week high. Business quality scores 77/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 76. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $293.14 (12% below the price)."
+     "explanation": "ADI is 25% below its 52-week high. Business quality scores 78/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 77. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $293.14 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 273.1502,
-     "explanation": "ADI is 25% below its 52-week high. Business quality scores 77/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 76. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $273.15 (18% below the price)."
+     "explanation": "ADI is 25% below its 52-week high. Business quality scores 78/100: strongest on Profit margin (33%), weakest on PEG ratio (PEG 3.46). The price setup scores 75/100: best signal is Volume (capitulation) (2.0x normal volume), weakest is RSI (14) (RSI 39). Verdict: BUY THE DIP. Combined score 77. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $273.15 (18% below the price)."
     }
    },
    "components": [
@@ -34831,7 +34831,7 @@
      "name": "Earnings growth",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "113%",
+     "value": "112%",
      "note": "Growing.",
      "missing": false
     },
@@ -34840,14 +34840,14 @@
      "name": "Debt-to-equity",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "0.34x",
+     "value": "0.35x",
      "note": "Manageable debt.",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Free-cash-flow yield",
-     "points": 6.5,
+     "points": 6.9,
      "max_points": 12.5,
      "value": "3%",
      "note": "Little or negative free cash flow.",
@@ -35024,9 +35024,9 @@
    "drawdown": -0.2494,
    "high_52w": 278.86,
    "rsi": 38.3128,
-   "fund_score": 34.1311,
-   "tech_score": 80.6958,
-   "composite": 57.4134,
+   "fund_score": 34.1931,
+   "tech_score": 80.7172,
+   "composite": 57.4552,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -35150,7 +35150,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 23.1,
+     "points": 23.2,
      "max_points": 25,
      "value": "1.9x normal volume",
      "note": "Heavy volume suggests panic selling that may be washing out.",
@@ -35559,8 +35559,8 @@
    "high_52w": 64.481,
    "rsi": 39.1552,
    "fund_score": 61.0613,
-   "tech_score": 42.3301,
-   "composite": 51.6957,
+   "tech_score": 42.3314,
+   "composite": 51.6963,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -36360,8 +36360,8 @@
    "high_52w": 134.5076,
    "rsi": 40.3346,
    "fund_score": 100.0,
-   "tech_score": 52.8566,
-   "composite": 76.4283,
+   "tech_score": 52.8697,
+   "composite": 76.4349,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -36397,7 +36397,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.39",
+     "value": "PEG 0.41",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -36893,9 +36893,9 @@
    "drawdown": -0.2425,
    "high_52w": 157.0226,
    "rsi": 52.24,
-   "fund_score": 69.316,
+   "fund_score": 68.941,
    "tech_score": 25.523,
-   "composite": 47.4195,
+   "composite": 47.232,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -36929,9 +36929,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 11.4,
+     "points": 11.0,
      "max_points": 12.5,
-     "value": "PEG 1.18",
+     "value": "PEG 1.24",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -37168,19 +37168,19 @@
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 372.6828,
-     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 20.89). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $372.68 (8% below the price)."
+     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 22.51). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $372.68 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 356.4792,
-     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 20.89). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $356.48 (12% below the price)."
+     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 22.51). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $356.48 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 332.1738,
-     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 20.89). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $332.17 (18% below the price)."
+     "explanation": "SNPS is 24% below its 52-week high. Business quality scores 67/100: strongest on Revenue growth (42%), weakest on PEG ratio (PEG 22.51). The price setup scores 55/100: best signal is Bollinger Bands (%B 0.06), weakest is Volume (capitulation) (0.8x normal volume). Verdict: BUY THE DIP. Combined score 61. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $332.17 (18% below the price)."
     }
    },
    "components": [
@@ -37198,7 +37198,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 20.89",
+     "value": "PEG 22.51",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -37425,7 +37425,7 @@
    "price": 536.54,
    "day_change": 0.0197,
    "drawdown": -0.239,
-   "high_52w": 705.0884,
+   "high_52w": 705.0883,
    "rsi": 58.4068,
    "fund_score": 55.0671,
    "tech_score": 22.1071,
@@ -37694,27 +37694,27 @@
    "drawdown": -0.2381,
    "high_52w": 98.1012,
    "rsi": 42.7055,
-   "fund_score": 78.9284,
+   "fund_score": 78.4284,
    "tech_score": 40.3735,
-   "composite": 59.651,
+   "composite": 59.401,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 79/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 60 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 78/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 79/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 60 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 78/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 79/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 60 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "IBKR is 24% below its 52-week high. Business quality scores 78/100: strongest on Return on equity (24%), weakest on Price-to-book (5.45x). The price setup scores 40/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -37730,9 +37730,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 12.0,
+     "points": 11.5,
      "max_points": 12.5,
-     "value": "PEG 1.08",
+     "value": "PEG 1.16",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -39296,27 +39296,27 @@
    "drawdown": -0.2321,
    "high_52w": 136.11,
    "rsi": 45.7583,
-   "fund_score": 60.7305,
+   "fund_score": 60.168,
    "tech_score": 41.0854,
-   "composite": 50.9079,
+   "composite": 50.6267,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "UAL is 23% below its 52-week high. Business quality scores 61/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "UAL is 23% below its 52-week high. Business quality scores 60/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "UAL is 23% below its 52-week high. Business quality scores 61/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "UAL is 23% below its 52-week high. Business quality scores 60/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "UAL is 23% below its 52-week high. Business quality scores 61/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "UAL is 23% below its 52-week high. Business quality scores 60/100: strongest on P/E ratio (P/E 8.7), weakest on Free-cash-flow yield (-2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-3% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 51 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -39332,9 +39332,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 11.6,
+     "points": 11.1,
      "max_points": 12.5,
-     "value": "PEG 1.14",
+     "value": "PEG 1.23",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -39571,19 +39571,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.63). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.80). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.63). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.80). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.63). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "STLD is 23% below its 52-week high. Business quality scores 71/100: strongest on P/E ratio (P/E 9.3), weakest on PEG ratio (PEG 3.80). The price setup scores 49/100: best signal is Long-term trend (200-day) (-4% vs 200-day avg), weakest is Volume (capitulation) (1.1x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 49 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
@@ -39601,7 +39601,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 3.63",
+     "value": "PEG 3.80",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -39830,27 +39830,27 @@
    "drawdown": -0.2279,
    "high_52w": 233.69,
    "rsi": 41.0688,
-   "fund_score": 90.629,
+   "fund_score": 78.7014,
    "tech_score": 54.7415,
-   "composite": 72.6852,
+   "composite": 66.7214,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 91/100: strongest on P/E ratio (P/E 13.6), weakest on Profit margin (12%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 79/100: strongest on P/E ratio (P/E 13.6), weakest on Earnings growth (2%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 91/100: strongest on P/E ratio (P/E 13.6), weakest on Profit margin (12%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 79/100: strongest on P/E ratio (P/E 13.6), weakest on Earnings growth (2%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 91/100: strongest on P/E ratio (P/E 13.6), weakest on Profit margin (12%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "WDAY is 23% below its 52-week high. Business quality scores 79/100: strongest on P/E ratio (P/E 13.6), weakest on Earnings growth (2%). The price setup scores 55/100: best signal is Long-term trend (200-day) (+15% vs 200-day avg), weakest is Volume (capitulation) (1.3x normal volume). Verdict: WAIT. The business looks good, but the price setup score of 55 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
@@ -39875,7 +39875,7 @@
     {
      "group": "fundamental",
      "name": "Return on equity",
-     "points": 10.0,
+     "points": 10.2,
      "max_points": 12.5,
      "value": "16%",
      "note": "Earns strong returns on shareholder capital.",
@@ -39884,7 +39884,7 @@
     {
      "group": "fundamental",
      "name": "Profit margin",
-     "points": 7.7,
+     "points": 7.4,
      "max_points": 12.5,
      "value": "12%",
      "note": "Healthy margins.",
@@ -39893,27 +39893,27 @@
     {
      "group": "fundamental",
      "name": "Revenue growth",
-     "points": 11.1,
+     "points": 10.1,
      "max_points": 12.5,
-     "value": "13%",
+     "value": "11%",
      "note": "Growing.",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Earnings growth",
-     "points": 12.5,
+     "points": 5.0,
      "max_points": 12.5,
-     "value": "206%",
-     "note": "Growing.",
+     "value": "2%",
+     "note": "Flat or shrinking.",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Debt-to-equity",
-     "points": 11.8,
+     "points": 8.4,
      "max_points": 12.5,
-     "value": "0.58x",
+     "value": "0.99x",
      "note": "Manageable debt.",
      "missing": false
     },
@@ -40095,7 +40095,7 @@
    "price": 428.74,
    "day_change": 0.0157,
    "drawdown": -0.2267,
-   "high_52w": 554.4604,
+   "high_52w": 554.4603,
    "rsi": 47.1816,
    "fund_score": 73.5162,
    "tech_score": 21.6172,
@@ -40364,9 +40364,9 @@
    "drawdown": -0.224,
    "high_52w": 489.88,
    "rsi": 50.3074,
-   "fund_score": 20.6708,
-   "tech_score": 26.3121,
-   "composite": 23.4915,
+   "fund_score": 20.7114,
+   "tech_score": 26.3276,
+   "composite": 23.5195,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -40454,7 +40454,7 @@
     {
      "group": "fundamental",
      "name": "Free-cash-flow yield",
-     "points": 0.8,
+     "points": 0.9,
      "max_points": 12.5,
      "value": "0%",
      "note": "Little or negative free cash flow.",
@@ -40490,7 +40490,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 0.0,
+     "points": 0.1,
      "max_points": 25,
      "value": "1.0x normal volume",
      "note": "No volume spike; the decline is quiet drift.",
@@ -40639,19 +40639,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.84), weakest on P/E ratio (P/E 47.7). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.85), weakest on P/E ratio (P/E 48.3). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.84), weakest on P/E ratio (P/E 47.7). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. The combined score of 33 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.85), weakest on P/E ratio (P/E 48.3). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. The combined score of 33 is below 45; neither the business nor the chart makes a convincing case."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.84), weakest on P/E ratio (P/E 47.7). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. The combined score of 33 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "WY is 22% below its 52-week high. Business quality scores 50/100: strongest on PEG ratio (PEG 0.85), weakest on P/E ratio (P/E 48.3). The price setup scores 16/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is RSI (14) (RSI 53). Verdict: AVOID. The combined score of 33 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -40660,7 +40660,7 @@
      "name": "P/E ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "P/E 47.7",
+     "value": "P/E 48.3",
      "note": "Priced richly relative to earnings.",
      "missing": false
     },
@@ -40669,7 +40669,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.84",
+     "value": "PEG 0.85",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -41173,19 +41173,19 @@
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 26.53). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 27.95). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. Business quality is below the 55-point minimum for a conservative investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "balanced": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 26.53). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
+     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 27.95). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. Business quality is below the 45-point minimum for a balanced investor, so this looks more like a falling knife than a discount, however oversold the chart is."
     },
     "aggressive": {
      "verdict": "Avoid (Falling Knife)",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 26.53). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. The combined score of 31 is below 45; neither the business nor the chart makes a convincing case."
+     "explanation": "ARES is 22% below its 52-week high. Business quality scores 35/100: strongest on Return on assets (3.4%), weakest on PEG ratio (PEG 27.95). The price setup scores 27/100: best signal is Long-term trend (200-day) (+10% vs 200-day avg), weakest is RSI (14) (RSI 57). Verdict: AVOID. The combined score of 31 is below 45; neither the business nor the chart makes a convincing case."
     }
    },
    "components": [
@@ -41203,7 +41203,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 26.53",
+     "value": "PEG 27.95",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -41433,8 +41433,8 @@
    "high_52w": 209.05,
    "rsi": 45.1317,
    "fund_score": 76.1823,
-   "tech_score": 36.4722,
-   "composite": 56.3273,
+   "tech_score": 36.4869,
+   "composite": 56.3346,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -41558,7 +41558,7 @@
     {
      "group": "technical",
      "name": "Volume (capitulation)",
-     "points": 2.5,
+     "points": 2.6,
      "max_points": 25,
      "value": "1.1x normal volume",
      "note": "No volume spike; the decline is quiet drift.",
@@ -42004,7 +42004,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.54",
+     "value": "PEG 0.55",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -42233,9 +42233,9 @@
    "drawdown": -0.2157,
    "high_52w": 777.59,
    "rsi": 45.7004,
-   "fund_score": 87.4039,
+   "fund_score": 87.3758,
    "tech_score": 31.5473,
-   "composite": 59.4756,
+   "composite": 59.4615,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -42260,9 +42260,9 @@
     {
      "group": "fundamental",
      "name": "P/E ratio",
-     "points": 11.5,
+     "points": 11.4,
      "max_points": 12.5,
-     "value": "P/E 17.1",
+     "value": "P/E 17.2",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -43034,27 +43034,27 @@
    "drawdown": -0.2136,
    "high_52w": 270.08,
    "rsi": 33.4747,
-   "fund_score": 76.0236,
+   "fund_score": 75.9612,
    "tech_score": 87.1992,
-   "composite": 81.6114,
+   "composite": 81.5802,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 195.3988,
-     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.34). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $195.40 (8% below the price)."
+     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.35). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $195.40 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 186.9032,
-     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.34). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $186.90 (12% below the price)."
+     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.35). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $186.90 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 174.1598,
-     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.34). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $174.16 (18% below the price)."
+     "explanation": "WSM is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on equity (57%), weakest on PEG ratio (PEG 2.35). The price setup scores 87/100: best signal is Long-term trend (200-day) (-2% vs 200-day avg), weakest is RSI (14) (RSI 33). Verdict: BUY THE DIP. Combined score 82. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $174.16 (18% below the price)."
     }
    },
    "components": [
@@ -43072,7 +43072,7 @@
      "name": "PEG ratio",
      "points": 4.1,
      "max_points": 12.5,
-     "value": "PEG 2.34",
+     "value": "PEG 2.35",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -44369,27 +44369,27 @@
    "drawdown": -0.2064,
    "high_52w": 1450.0,
    "rsi": 46.9023,
-   "fund_score": 76.5021,
+   "fund_score": 76.4396,
    "tech_score": 38.0158,
-   "composite": 57.2589,
+   "composite": 57.2277,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TDG is 21% below its 52-week high. Business quality scores 77/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "TDG is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TDG is 21% below its 52-week high. Business quality scores 77/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "TDG is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "TDG is 21% below its 52-week high. Business quality scores 77/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "TDG is 21% below its 52-week high. Business quality scores 76/100: strongest on Return on assets (12%), weakest on Net debt / EBITDA (6.1x). The price setup scores 38/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -44407,7 +44407,7 @@
      "name": "PEG ratio",
      "points": 11.6,
      "max_points": 12.5,
-     "value": "PEG 1.14",
+     "value": "PEG 1.15",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -44903,27 +44903,27 @@
    "drawdown": -0.2045,
    "high_52w": 310.25,
    "rsi": 46.7033,
-   "fund_score": 81.3506,
+   "fund_score": 80.2149,
    "tech_score": 49.5061,
-   "composite": 65.4283,
+   "composite": 64.8605,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (54%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 80/100: strongest on Return on equity (55%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (54%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 80/100: strongest on Return on equity (55%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 81/100: strongest on Return on equity (54%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
+     "explanation": "ADSK is 20% below its 52-week high. Business quality scores 80/100: strongest on Return on equity (55%), weakest on PEG ratio (PEG 6.07). The price setup scores 50/100: best signal is Long-term trend (200-day) (+5% vs 200-day avg), weakest is RSI (14) (RSI 47). Verdict: WAIT. The business looks good, but the price setup score of 50 is below the 55 needed for a buy signal (the same trigger used in our backtest). The chart does not yet show an oversold, stabilising entry."
     }
    },
    "components": [
@@ -44950,7 +44950,7 @@
      "name": "Return on equity",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "54%",
+     "value": "55%",
      "note": "Earns strong returns on shareholder capital.",
      "missing": false
     },
@@ -44959,7 +44959,7 @@
      "name": "Profit margin",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "21%",
+     "value": "23%",
      "note": "Healthy margins.",
      "missing": false
     },
@@ -44968,7 +44968,7 @@
      "name": "Revenue growth",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "16%",
+     "value": "17%",
      "note": "Growing.",
      "missing": false
     },
@@ -44977,16 +44977,16 @@
      "name": "Earnings growth",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "60%",
+     "value": "68%",
      "note": "Growing.",
      "missing": false
     },
     {
      "group": "fundamental",
      "name": "Debt-to-equity",
-     "points": 7.5,
+     "points": 6.4,
      "max_points": 12.5,
-     "value": "1.10x",
+     "value": "1.23x",
      "note": "Heavy debt load.",
      "missing": false
     },
@@ -45712,19 +45712,19 @@
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 318.4948,
-     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.55). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $318.49 (8% below the price)."
+     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.42). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $318.49 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 304.6472,
-     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.55). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $304.65 (12% below the price)."
+     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.42). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $304.65 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 283.8758,
-     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.55). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $283.88 (18% below the price)."
+     "explanation": "UNH is 20% below its 52-week high. Business quality scores 63/100: strongest on P/E ratio (P/E 14.7), weakest on PEG ratio (PEG 11.42). The price setup scores 78/100: best signal is Volume (capitulation) (1.9x normal volume), weakest is Bollinger Bands (%B 0.18). Verdict: BUY THE DIP. Combined score 70. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $283.88 (18% below the price)."
     }
    },
    "components": [
@@ -45742,7 +45742,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 11.55",
+     "value": "PEG 11.42",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -46772,9 +46772,9 @@
    "drawdown": -0.1968,
    "high_52w": 100.701,
    "rsi": 47.0619,
-   "fund_score": 76.9568,
+   "fund_score": 76.7693,
    "tech_score": 40.5092,
-   "composite": 58.733,
+   "composite": 58.6392,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -46808,9 +46808,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 10.1,
+     "points": 9.9,
      "max_points": 12.5,
-     "value": "PEG 1.39",
+     "value": "PEG 1.42",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -47581,19 +47581,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.4), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.3), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.4), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.3), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.4), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "SRE is 19% below its 52-week high. Business quality scores 69/100: strongest on P/E ratio (P/E 14.3), weakest on Free-cash-flow yield (-22%). The price setup scores 25/100: best signal is Long-term trend (200-day) (-10% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 47 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -47602,7 +47602,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 14.4",
+     "value": "P/E 14.3",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -47878,7 +47878,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.33",
+     "value": "PEG 0.34",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -48107,9 +48107,9 @@
    "drawdown": -0.1885,
    "high_52w": 59.7898,
    "rsi": 45.0059,
-   "fund_score": 65.108,
+   "fund_score": 65.0455,
    "tech_score": 35.0147,
-   "composite": 50.0613,
+   "composite": 50.0301,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -48145,7 +48145,7 @@
      "name": "PEG ratio",
      "points": 7.1,
      "max_points": 12.5,
-     "value": "PEG 1.86",
+     "value": "PEG 1.87",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -48649,19 +48649,19 @@
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 9.59). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 10.18). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 9.59). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 10.18). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 9.59). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "ZBRA is 19% below its 52-week high. Business quality scores 76/100: strongest on P/E ratio (P/E 14.3), weakest on PEG ratio (PEG 10.18). The price setup scores 41/100: best signal is Long-term trend (200-day) (+11% vs 200-day avg), weakest is Volume (capitulation) (0.8x normal volume). Verdict: WAIT. The combined score of 59 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -48679,7 +48679,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 9.59",
+     "value": "PEG 10.18",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -49173,7 +49173,7 @@
    "price": 312.39,
    "day_change": 0.0122,
    "drawdown": -0.1792,
-   "high_52w": 380.6044,
+   "high_52w": 380.6043,
    "rsi": 46.619,
    "fund_score": 80.9758,
    "tech_score": 37.3576,
@@ -49707,7 +49707,7 @@
    "price": 270.19,
    "day_change": 0.0455,
    "drawdown": -0.1787,
-   "high_52w": 328.9816,
+   "high_52w": 328.9817,
    "rsi": 43.839,
    "fund_score": 74.1308,
    "tech_score": 62.9753,
@@ -49717,19 +49717,19 @@
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 248.5748,
-     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 45.92). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $248.57 (8% below the price)."
+     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 50.70). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $248.57 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 237.7672,
-     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 45.92). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $237.77 (12% below the price)."
+     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 50.70). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $237.77 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 221.5558,
-     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 45.92). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $221.56 (18% below the price)."
+     "explanation": "TXN is 18% below its 52-week high. Business quality scores 74/100: strongest on Return on equity (40%), weakest on PEG ratio (PEG 50.70). The price setup scores 63/100: best signal is Long-term trend (200-day) (+2% vs 200-day avg), weakest is RSI (14) (RSI 44). Verdict: BUY THE DIP. Combined score 69. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $221.56 (18% below the price)."
     }
    },
    "components": [
@@ -49747,7 +49747,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 45.92",
+     "value": "PEG 50.70",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -49976,9 +49976,9 @@
    "drawdown": -0.1782,
    "high_52w": 35.2141,
    "rsi": 41.067,
-   "fund_score": 64.5158,
+   "fund_score": 64.5179,
    "tech_score": 39.6547,
-   "composite": 52.0852,
+   "composite": 52.0863,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -53447,9 +53447,9 @@
    "drawdown": -0.1615,
    "high_52w": 193.2363,
    "rsi": 40.9509,
-   "fund_score": 87.0098,
+   "fund_score": 86.7598,
    "tech_score": 49.4147,
-   "composite": 68.2122,
+   "composite": 68.0872,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -53483,9 +53483,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 12.4,
+     "points": 12.2,
      "max_points": 12.5,
-     "value": "PEG 1.01",
+     "value": "PEG 1.05",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -53752,7 +53752,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.67",
+     "value": "PEG 0.68",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -54248,9 +54248,9 @@
    "drawdown": -0.1609,
    "high_52w": 430.8719,
    "rsi": 72.943,
-   "fund_score": 58.2298,
+   "fund_score": 58.2409,
    "tech_score": 25.0,
-   "composite": 41.6149,
+   "composite": 41.6204,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -54515,27 +54515,27 @@
    "drawdown": -0.1604,
    "high_52w": 1069.4741,
    "rsi": 43.9769,
-   "fund_score": 73.1766,
+   "fund_score": 72.4891,
    "tech_score": 40.8883,
-   "composite": 57.0324,
+   "composite": 56.6887,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "PH is 16% below its 52-week high. Business quality scores 73/100: strongest on Return on equity (25%), weakest on Free-cash-flow yield (2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "PH is 16% below its 52-week high. Business quality scores 72/100: strongest on Return on equity (25%), weakest on PEG ratio (PEG 2.07). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "PH is 16% below its 52-week high. Business quality scores 73/100: strongest on Return on equity (25%), weakest on Free-cash-flow yield (2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "PH is 16% below its 52-week high. Business quality scores 72/100: strongest on Return on equity (25%), weakest on PEG ratio (PEG 2.07). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "PH is 16% below its 52-week high. Business quality scores 73/100: strongest on Return on equity (25%), weakest on Free-cash-flow yield (2%). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "PH is 16% below its 52-week high. Business quality scores 72/100: strongest on Return on equity (25%), weakest on PEG ratio (PEG 2.07). The price setup scores 41/100: best signal is Long-term trend (200-day) (-5% vs 200-day avg), weakest is Volume (capitulation) (1.0x normal volume). Verdict: WAIT. The combined score of 57 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -54551,9 +54551,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 6.5,
+     "points": 5.8,
      "max_points": 12.5,
-     "value": "PEG 1.96",
+     "value": "PEG 2.07",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -56385,8 +56385,8 @@
    "high_52w": 419.91,
    "rsi": 52.6572,
    "fund_score": 45.138,
-   "tech_score": 40.8144,
-   "composite": 42.9762,
+   "tech_score": 40.8353,
+   "composite": 42.9866,
    "verdicts": {
     "conservative": {
      "verdict": "Avoid (Falling Knife)",
@@ -56651,27 +56651,27 @@
    "drawdown": -0.1512,
    "high_52w": 1196.5869,
    "rsi": 41.8079,
-   "fund_score": 83.4585,
+   "fund_score": 83.3335,
    "tech_score": 57.3387,
-   "composite": 70.3986,
+   "composite": 70.3361,
    "verdicts": {
     "conservative": {
      "verdict": "Buy the Dip",
      "position_size": 0.05,
      "stop_price": 934.4624,
-     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on PEG ratio (PEG 0.96), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $934.46 (8% below the price)."
+     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (31%), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a conservative investor: position of about 5.0% of the portfolio with a stop-loss at $934.46 (8% below the price)."
     },
     "balanced": {
      "verdict": "Buy the Dip",
      "position_size": 0.0833,
      "stop_price": 893.8336,
-     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on PEG ratio (PEG 0.96), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $893.83 (12% below the price)."
+     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (31%), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a balanced investor: position of about 8.3% of the portfolio with a stop-loss at $893.83 (12% below the price)."
     },
     "aggressive": {
      "verdict": "Buy the Dip",
      "position_size": 0.1111,
      "stop_price": 832.8904,
-     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on PEG ratio (PEG 0.96), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $832.89 (18% below the price)."
+     "explanation": "URI is 15% below its 52-week high. Business quality scores 83/100: strongest on Return on equity (31%), weakest on Debt-to-equity (1.64x). The price setup scores 57/100: best signal is Long-term trend (200-day) (+3% vs 200-day avg), weakest is Volume (capitulation) (1.2x normal volume). Verdict: BUY THE DIP. Combined score 70. For a aggressive investor: position of about 11.1% of the portfolio with a stop-loss at $832.89 (18% below the price)."
     }
    },
    "components": [
@@ -56687,9 +56687,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 12.5,
+     "points": 12.4,
      "max_points": 12.5,
-     "value": "PEG 0.96",
+     "value": "PEG 1.02",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -56918,27 +56918,27 @@
    "drawdown": -0.1508,
    "high_52w": 78.2497,
    "rsi": 43.5925,
-   "fund_score": 64.3506,
+   "fund_score": 64.2256,
    "tech_score": 33.0902,
-   "composite": 48.7204,
+   "composite": 48.6579,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 1.00), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on Profit margin (25%), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "balanced": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 1.00), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on Profit margin (25%), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     },
     "aggressive": {
      "verdict": "Wait",
      "position_size": 0.0,
      "stop_price": null,
-     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on PEG ratio (PEG 1.00), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
+     "explanation": "WMB is 15% below its 52-week high. Business quality scores 64/100: strongest on Profit margin (25%), weakest on Free-cash-flow yield (-3%). The price setup scores 33/100: best signal is Long-term trend (200-day) (-8% vs 200-day avg), weakest is Volume (capitulation) (0.9x normal volume). Verdict: WAIT. The combined score of 49 is decent but short of the 60 needed to buy; watch for the price setup to improve."
     }
    },
    "components": [
@@ -56954,9 +56954,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 12.5,
+     "points": 12.4,
      "max_points": 12.5,
-     "value": "PEG 1.00",
+     "value": "PEG 1.02",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -57452,9 +57452,9 @@
    "drawdown": -0.1502,
    "high_52w": 54.0738,
    "rsi": 55.9561,
-   "fund_score": 65.9666,
+   "fund_score": 65.6541,
    "tech_score": 25.0,
-   "composite": 45.4833,
+   "composite": 45.327,
    "verdicts": {
     "conservative": {
      "verdict": "Wait",
@@ -57488,9 +57488,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 8.8,
+     "points": 8.5,
      "max_points": 12.5,
-     "value": "PEG 1.59",
+     "value": "PEG 1.64",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -60151,7 +60151,7 @@
      "name": "P/E ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "P/E 8.3",
+     "value": "P/E 8.5",
      "note": "Cheap relative to earnings.",
      "missing": false
     },
@@ -60160,7 +60160,7 @@
      "name": "PEG ratio",
      "points": 12.5,
      "max_points": 12.5,
-     "value": "PEG 0.78",
+     "value": "PEG 0.77",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -60656,9 +60656,9 @@
    "drawdown": -0.1429,
    "high_52w": 75.4053,
    "rsi": 47.4632,
-   "fund_score": 84.7333,
+   "fund_score": 84.5458,
    "tech_score": 36.4483,
-   "composite": 60.5908,
+   "composite": 60.497,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -60692,9 +60692,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 10.0,
+     "points": 9.8,
      "max_points": 12.5,
-     "value": "PEG 1.40",
+     "value": "PEG 1.43",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -61190,9 +61190,9 @@
    "drawdown": -0.1421,
    "high_52w": 91.9679,
    "rsi": 63.5713,
-   "fund_score": 65.1395,
+   "fund_score": 64.8895,
    "tech_score": 25.0,
-   "composite": 45.0697,
+   "composite": 44.9447,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -61226,9 +61226,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 3.0,
+     "points": 2.7,
      "max_points": 12.5,
-     "value": "PEG 2.52",
+     "value": "PEG 2.56",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -61724,9 +61724,9 @@
    "drawdown": -0.1414,
    "high_52w": 94.2698,
    "rsi": 43.2613,
-   "fund_score": 78.6962,
+   "fund_score": 78.5712,
    "tech_score": 45.8494,
-   "composite": 62.2728,
+   "composite": 62.2103,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -61760,9 +61760,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 12.4,
+     "points": 12.2,
      "max_points": 12.5,
-     "value": "PEG 1.02",
+     "value": "PEG 1.04",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -62830,7 +62830,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 7.91",
+     "value": "PEG 8.32",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -63327,8 +63327,8 @@
    "high_52w": 284.02,
    "rsi": 41.955,
    "fund_score": 70.44,
-   "tech_score": 57.8744,
-   "composite": 64.1572,
+   "tech_score": 57.8946,
+   "composite": 64.1673,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -63860,9 +63860,9 @@
    "drawdown": -0.1387,
    "high_52w": 222.2776,
    "rsi": 55.2037,
-   "fund_score": 63.2456,
+   "fund_score": 62.9956,
    "tech_score": 25.0,
-   "composite": 44.1228,
+   "composite": 43.9978,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -63896,9 +63896,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 11.7,
+     "points": 11.4,
      "max_points": 12.5,
-     "value": "PEG 1.13",
+     "value": "PEG 1.17",
      "note": "Price is reasonable for its growth.",
      "missing": false
     },
@@ -64165,7 +64165,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 16.43",
+     "value": "PEG 16.89",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -64394,9 +64394,9 @@
    "drawdown": -0.1362,
    "high_52w": 244.8393,
    "rsi": 49.1651,
-   "fund_score": 87.8455,
+   "fund_score": 87.158,
    "tech_score": 32.335,
-   "composite": 60.0903,
+   "composite": 59.7465,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -64430,9 +64430,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 7.8,
+     "points": 7.1,
      "max_points": 12.5,
-     "value": "PEG 1.75",
+     "value": "PEG 1.86",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -65462,9 +65462,9 @@
    "drawdown": -0.1335,
    "high_52w": 384.169,
    "rsi": 63.3059,
-   "fund_score": 58.3254,
+   "fund_score": 58.0129,
    "tech_score": 25.0,
-   "composite": 41.6627,
+   "composite": 41.5064,
    "verdicts": {
     "conservative": {
      "verdict": "Not a Dip",
@@ -65498,9 +65498,9 @@
     {
      "group": "fundamental",
      "name": "PEG ratio",
-     "points": 3.6,
+     "points": 3.2,
      "max_points": 12.5,
-     "value": "PEG 2.43",
+     "value": "PEG 2.48",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
@@ -66568,7 +66568,7 @@
      "name": "PEG ratio",
      "points": 0.0,
      "max_points": 12.5,
-     "value": "PEG 3.23",
+     "value": "PEG 3.31",
      "note": "Paying a lot for each unit of growth.",
      "missing": false
     },
